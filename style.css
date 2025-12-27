@@ -105,7 +105,7 @@ body {
   width: 100%;
   left: 0;
   height: 0;
-  background: linear-gradient(rgb(108, 152, 248), rgb(114, 152, 255), rgb(31, 109, 255));
+  background: linear-gradient(rgb(108, 152, 248), rgb(90, 132, 248), rgb(31, 109, 255));
   z-index: 999;
   display: flex;
   flex-direction: column;
@@ -272,7 +272,6 @@ body {
   text-align: center;
   padding: 50px 15%;
   margin: 0 10px;
-  background: rgba(255, 255, 255, 0.05);
 }
 .about h2{
   margin-bottom: 15px;
@@ -477,7 +476,6 @@ body {
 .contact form{
   width: 95%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.05);
  backdrop-filter: blur(12px);
 -webkit-backdrop-filter: blur(12px);
 
