@@ -273,6 +273,10 @@ body {
   padding: 50px 15%;
   margin: 0 10px;
 }
+.about .ss{
+  display: flex;
+  justify-content: center;
+}
 .about h2{
   margin-bottom: 15px;
 }
