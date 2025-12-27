@@ -664,6 +664,9 @@ body {
   }
   
   /* About section*/
+  .about .ss{
+    display: block;
+  }
   .about img{
     width: 85%;
     border-radius: 47%;
