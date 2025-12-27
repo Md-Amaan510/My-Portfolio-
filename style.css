@@ -365,8 +365,8 @@ body {
 .project-card a {
   display: inline-block;
   padding: 10px 20px;
-  background: rgba(196, 196, 196, 0.075);
-  color: #020617;
+  background: rgb(148 145 255);
+  color: rgb(255, 255, 255);
   border-radius: 30px;
   font-size: 0.85rem;
   font-weight: 500;
