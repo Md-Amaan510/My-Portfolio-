@@ -333,7 +333,7 @@ body {
 
 /* Project Card */
 .project-card {
-  background: #5d65e4;
+  background: transparent;
   padding: 30px 25px;
   border-radius: 18px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4);
