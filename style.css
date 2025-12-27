@@ -282,6 +282,7 @@ body {
   border-radius: 47%;
 }
 .about p{
+  font-size: 25px;
   padding: 15px 10%;
 }
 .about button{
@@ -366,7 +367,7 @@ body {
   display: inline-block;
   padding: 10px 20px;
   background: rgb(148 145 255);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 30px;
   font-size: 0.85rem;
   font-weight: 500;
@@ -668,6 +669,7 @@ body {
     border-radius: 47%;
   }
   .about p{
+    font-size: 15px;
     padding: 15px 2%;
   }
   /* Skills section*/
