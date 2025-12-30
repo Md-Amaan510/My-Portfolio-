@@ -370,7 +370,7 @@ body {
 .project-card a {
   display: inline-block;
   padding: 10px 20px;
-  background: rgb(148 145 255);
+  background: rgb(255,255,255);
   color: rgb(0, 0, 0);
   border-radius: 30px;
   font-size: 0.85rem;
