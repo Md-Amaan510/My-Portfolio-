@@ -476,9 +476,9 @@ body {
 }
 
 /* Form */
-.contact h2{
+.contact :first-child{
   margin: 15px;
-  
+
 }
 .contact-card {
   width: 80%;
@@ -656,7 +656,7 @@ body {
   }
 
   .contact-card h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .contact-card p {
