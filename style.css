@@ -270,18 +270,19 @@ body {
 /* About Section */
 .about {
   text-align: center;
-  padding: 50px 15%;
+  padding: 50px 7%;
   margin: 0 10px;
 }
 .about .ss{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .about h2{
   margin-bottom: 15px;
 }
 .about img{
-  width: 40%;
+  width: 30%;
   margin: 25px 0;
   border-radius: 47%;
 }
@@ -478,105 +479,65 @@ body {
 .contact h2{
   margin: 15px;
 }
-.contact form{
-  width: 95%;
-  height: 100%;
- backdrop-filter: blur(12px);
--webkit-backdrop-filter: blur(12px);
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.con_sub {
-  width: 75%;
-  padding: 10px 0;
-  margin-top: 10px;
-  
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
-
-.con_sub div {
-  display: flex;
-  height: 65px;
-  width: 90%;
-  
-  position: relative;
-  align-items: flex-end;
-  margin-bottom: 0;
-}
-
-.con_sub input {
-  height: 35px;
+.contact-card {
   width: 100%;
-  font-size: 1.1em;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  padding: 28px;
+  color: #fff;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.contact-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.contact-card p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.contact-card input,
+.contact-card textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.08);
   border: none;
   outline: none;
-  padding: 0 0 0 10px;
-  color: white;
-  background: transparent;
-  border-bottom: 2px solid white;
+  border-radius: 12px;
+  padding: 14px;
+  color: #fff;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
 }
 
-/* Label base style */
-.con_sub label {
-  font-size: 1.3em;
-  color: #FFFFFF;
-  position: absolute;
-  left: 5px;
-  top: 50%;
-  transform: translateY(0%);
-  opacity: 95%;
-  transition: 0.3s ease;
+.contact-card input::placeholder,
+.contact-card textarea::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+/* Button */
+.contact-card button {
+  width: 100%;
+  padding: 14px;
   border: none;
-  pointer-events: none; /* Prevent label blocking input click */
-}
-
-/* When focused OR has value, move label up */
-.con_sub input:focus ~ label,
-.con_sub input:valid ~ label {
-  font-size: 1em;
-  color: white;
-  top: 45%;
-  opacity: 100;
-  transform: translateY(-100%);
-}
-
-.con_sub textarea{
-  width: 90%;
-  margin-top: 45px;
-  font-size: 1em;
-  outline: none;
-  color: white;
-  background: transparent;
-  border: 1px solid #FFFFFF;
-  padding: 3px 10px;
-  resize: none;
-}
-
-.con_sub textarea::-webkit-input-placeholder{
-  color: #FFFDFD;
-  opacity: 75%;
-}
-
-.con_sub button{
-  margin-top: 30px ;
-  padding: 12px 15%;
-  background: white;
-  border: none;
-  border-radius: 30px;
-  font-size: 1.3em;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #4f7cff, #6ea0ff);
+  color: #fff;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
 }
-.con_sub button:hover{
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  box-shadow: 2px 2px 15px #04FBFF, -2px -2px 15px #FF00EF;
+
+.contact-card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(79,124,255,0.5);
 }
 .contact p{
   height: 100px;
@@ -669,7 +630,8 @@ body {
   
   /* About section*/
   .about .ss{
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .about img{
     width: 85%;
@@ -685,17 +647,17 @@ body {
   }
 
   /*contact section*/
-  .contact form{
-    width: 95%;
+  .contact-card {
+    max-width: 520px;
+    padding: 40px;
   }
-  .con_sub{
-    width: 100%;
+
+  .contact-card h2 {
+    font-size: 2.2rem;
   }
-  .con_sub textarea{
-    margin-top: 15px;
-  }
-  .con_sub button{
-    margin-top: 15px;
+
+  .contact-card p {
+    font-size: 1rem;
   }
   .contact p{
     height: 75px;
