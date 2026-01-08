@@ -478,6 +478,7 @@ body {
 /* Form */
 .contact h2{
   margin: 15px;
+  
 }
 .contact-card {
   width: 80%;
@@ -650,12 +651,12 @@ body {
   /*contact section*/
   .contact-card {
     max-width: 520px;
-    padding: 40px;
+    padding: 40px 25px;
     flex-direction: column;
   }
 
   .contact-card h2 {
-    font-size: 2.2rem;
+    font-size: 1.4rem;
   }
 
   .contact-card p {
