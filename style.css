@@ -279,6 +279,7 @@ body {
   align-items: center;
 }
 .about h2{
+  font-size: 2em;
   margin-bottom: 15px;
 }
 .about img{
@@ -315,6 +316,10 @@ body {
   background: transparent;
   color: #fff;
   text-align: center;
+}
+
+.projects h2{
+  font-size: 2em;
 }
 
 .section-title {
@@ -387,6 +392,9 @@ body {
 
 
 /* Skills Section */
+.skills h2{
+  font-size: 2em;
+}
 .skills {
   padding: 80px 10%;
   background: transparent;
@@ -474,12 +482,11 @@ body {
   overflow-x: hidden;
   
 }
+.contact h2{
+  font-size: 2em;
+}
 
 /* Form */
-.contact :first-child{
-  margin: 15px;
-
-}
 .contact-card {
   width: 80%;
   max-width: 1080px;
@@ -649,15 +656,18 @@ body {
   }
 
   /*contact section*/
+  .contact h2{
+      font-size: 2em;
+  }
   .contact-card {
     max-width: 520px;
     padding: 40px 25px;
     flex-direction: column;
   }
 
-  .contact-card h2 {
+  .contact-card  span h2 {
     font-size: 1.3rem;
-    margin: 0;
+    margin: 7px 0px;
   }
 
   .contact-card p {
