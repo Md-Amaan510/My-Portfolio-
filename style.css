@@ -480,14 +480,15 @@ body {
   margin: 15px;
 }
 .contact-card {
-  width: 100%;
-  max-width: 420px;
+  width: 80%;
+  max-width: 1080px;
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(14px);
   border-radius: 20px;
   padding: 28px;
   color: #fff;
   box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  display: flex;
 }
 
 /* Heading */
@@ -650,6 +651,7 @@ body {
   .contact-card {
     max-width: 520px;
     padding: 40px;
+    flex-direction: column;
   }
 
   .contact-card h2 {
