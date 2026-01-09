@@ -268,7 +268,7 @@ body {
 
 /* Hero Image */
 .hero img {
-  width: clamp(180px, 28vw, 260px);
+  width: 330px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 60px;
@@ -620,11 +620,7 @@ section {
 }
 /* Responsive */
 @media (max-width: 768px) {
-  body {
-    overscroll-behavior-y: auto;
-    touch-action: pan-y;
-    -webkit-overflow-scrolling: touch;
-  }
+
   * {
     -webkit-tap-highlight-color: transparent;
   }
