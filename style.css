@@ -503,6 +503,7 @@ body {
 /* Heading */
 .contact-card h2 {
   font-size: 1.8rem;
+  padding: 0px;
   margin-bottom: 8px;
 }
 
@@ -510,6 +511,9 @@ body {
   font-size: 0.95rem;
   opacity: 0.85;
   margin-bottom: 20px;
+}
+.contact-card img{
+  width: 100px;
 }
 
 /* Inputs */
