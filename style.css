@@ -367,7 +367,9 @@ body {
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+  box-shadow:
+    0 20px 45px rgba(0,0,0,0.6),
+    0 0 20px rgba(56,189,248,0.3);
 }
 
 .project-card i {
@@ -474,7 +476,7 @@ body {
   padding-right: 8px;
   font-size: 0.7rem;
   line-height: 12px;
-  animation: fillBar 1.8s ease-in-out;
+  animation: animation: fillBar 1.5s ease forwards;
 }
 
 @keyframes fillBar {
@@ -613,9 +615,16 @@ body {
   will-change: transform;
   transform: translateZ(0);
 }
-
+section {
+  scroll-margin-top: 90px;
+}
 /* Responsive */
 @media (max-width: 768px) {
+  body {
+    overscroll-behavior-y: auto;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+  }
   * {
     -webkit-tap-highlight-color: transparent;
   }
