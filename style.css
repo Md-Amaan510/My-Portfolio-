@@ -482,7 +482,7 @@ body {
   overflow-x: hidden;
   
 }
-.contact h2{
+.contact > h2{
   font-size: 2em;
   padding: 25px;
 }
@@ -513,9 +513,9 @@ body {
   margin-bottom: 20px;
 }
 .contact-card img{
-  width: 40px;
+  width: 200px;
+  height: 165px;
   border-radius: 10px;
-
 }
 
 /* Inputs */
@@ -556,7 +556,7 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(79,124,255,0.5);
 }
-.contact p{
+.contact > p{
   height: 100px;
   display: flex;
   align-items: center;
