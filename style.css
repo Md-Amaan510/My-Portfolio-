@@ -616,10 +616,6 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-  body {
-    overscroll-behavior: none;
-  }
-
   * {
     -webkit-tap-highlight-color: transparent;
   }
