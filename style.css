@@ -484,6 +484,7 @@ body {
 }
 .contact h2{
   font-size: 2em;
+  padding: 25px;
 }
 
 /* Form */
@@ -523,6 +524,7 @@ body {
   color: #fff;
   margin-bottom: 14px;
   font-size: 0.95rem;
+  resize: none;
 }
 
 .contact-card input::placeholder,
@@ -552,7 +554,7 @@ body {
   height: 100px;
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 .contact a {
   color: #FFFDFD;
@@ -578,7 +580,7 @@ body {
 
 /* Footer */
 .footer {
-  height: 50px;
+  height: 40px;
   text-align: center;
   padding: 20px;
   font-size: 0.9em;
