@@ -513,7 +513,9 @@ body {
   margin-bottom: 20px;
 }
 .contact-card img{
-  width: 100px;
+  width: 40px;
+  border-radius: 10px;
+
 }
 
 /* Inputs */
