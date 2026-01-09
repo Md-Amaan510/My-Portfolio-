@@ -1,12 +1,12 @@
 /* Import Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 /* Reset and Base */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -15,17 +15,27 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: #0A0A0A;
-  background-image: 
-    radial-gradient(circle at top left, #5d95fc, transparent 100%),
-    radial-gradient(circle at top right, rgba(198, 104, 243, 0.98), transparent 70%),
-    radial-gradient(circle at bottom right, rgba(8, 80, 199, 1), transparent 70%);
+  background-color: #0a0a0a;
+  background-image: radial-gradient(
+      circle at top left,
+      #5d95fc,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(198, 104, 243, 0.98),
+      transparent 70%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(8, 80, 199, 1),
+      transparent 70%
+    );
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   overflow-x: hidden;
 }
-
 
 /* Header */
 .header {
@@ -37,7 +47,7 @@ body {
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(12px);
--webkit-backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   position: fixed;
   left: 0;
   top: 0;
@@ -46,7 +56,7 @@ body {
 
 .header h1 {
   font-size: 2.1em;
-  text-shadow: 1px 2px 5px #1BCDD0, -1px -2px 5px #6F07FF;
+  text-shadow: 1px 2px 5px #1bcdd0, -1px -2px 5px #6f07ff;
 }
 
 /* Navigation */
@@ -70,7 +80,7 @@ body {
 }
 
 .option a:hover {
-  color: #93F4F3;
+  color: #93f4f3;
   text-decoration: underline;
 }
 
@@ -84,8 +94,8 @@ body {
 .option .side_btn:hover {
   color: #000;
   text-decoration: none;
-  background: linear-gradient(45deg, #FF3E3E, #E9CB6B, #5099D4, #C731DB);
-  box-shadow: 2px 2px 15px #FF3E3E, -3px -3px 15px #FFFFFF;
+  background: linear-gradient(45deg, #ff3e3e, #e9cb6b, #5099d4, #c731db);
+  box-shadow: 2px 2px 15px #ff3e3e, -3px -3px 15px #ffffff;
 }
 
 /* Menu Icons */
@@ -105,7 +115,11 @@ body {
   width: 100%;
   left: 0;
   height: 0;
-  background: linear-gradient(rgb(108, 152, 248), rgb(71, 120, 255), rgb(31, 109, 255));
+  background: linear-gradient(
+    rgb(108, 152, 248),
+    rgb(71, 120, 255),
+    rgb(31, 109, 255)
+  );
   z-index: 999;
   display: flex;
   flex-direction: column;
@@ -138,7 +152,7 @@ body {
 .sidebar a {
   width: 100%;
   text-decoration: none;
-  color: #FEFFFE;
+  color: #fefffe;
   font-weight: 600;
   padding: 20px;
   display: flex;
@@ -165,8 +179,8 @@ body {
 .sidebar .side_btn:hover {
   color: black;
   font-weight: 600;
-  background: linear-gradient(45deg, #FF3E3E, #E9CB6B, #5099D4, #C731DB);
-  box-shadow: 2px 2px 15px #FF3E3E, -3px -3px 15px #FFFFFF;
+  background: linear-gradient(45deg, #ff3e3e, #e9cb6b, #5099d4, #c731db);
+  box-shadow: 2px 2px 15px #ff3e3e, -3px -3px 15px #ffffff;
 }
 
 /* Hero Section */
@@ -187,7 +201,7 @@ body {
 
 .main p {
   font-size: 1.5em;
-  color: #E4DEED;
+  color: #e4deed;
 }
 
 .main h2 {
@@ -197,11 +211,11 @@ body {
 
 .main h1 {
   font-size: 2.7em;
-  background: linear-gradient(90deg, #641B99, #588AF4);
+  background: linear-gradient(90deg, #641b99, #588af4);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 2px #FFFFFFB8);
+  filter: drop-shadow(0 0 2px #ffffffb8);
 }
 
 .det {
@@ -231,13 +245,13 @@ body {
 .btn1:hover {
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  box-shadow: 2px 2px 15px #04FBFF, -2px -2px 15px #FF00EF;
+  box-shadow: 2px 2px 15px #04fbff, -2px -2px 15px #ff00ef;
 }
 
 .btn2 {
   height: 45px;
   width: 45px;
-  background: #25D366;
+  background: #25d366;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -249,12 +263,13 @@ body {
 }
 
 .btn2:hover {
-  box-shadow: 0 0 15px #25D366;
+  box-shadow: 0 0 15px #25d366;
 }
 
 /* Hero Image */
 .hero img {
   flex: 1;
+  min-width: 20%;
   max-width: 250px;
   border-radius: 65px;
   border: 1px solid #ffffff80;
@@ -273,25 +288,26 @@ body {
   padding: 50px 7%;
   margin: 0 10px;
 }
-.about .ss{
+.about .ss {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about h2{
+.about h2 {
   font-size: 2em;
   margin-bottom: 15px;
 }
-.about img{
-  width: 30%;
+.about img {
+  min-width: 250px;
+  max-width: 355px;
   margin: 25px 0;
   border-radius: 47%;
 }
-.about p{
+.about p {
   font-size: 25px;
   padding: 15px 10%;
 }
-.about button{
+.about button {
   background: #151518;
   color: white;
   font-size: 1em;
@@ -303,12 +319,11 @@ body {
   transition: 0.4s;
   margin-top: 15px;
 }
-.about button:hover{
+.about button:hover {
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  box-shadow: 2px 2px 15px #04FBFF, -2px -2px 15px #FF00EF;
+  box-shadow: 2px 2px 15px #04fbff, -2px -2px 15px #ff00ef;
 }
-
 
 /* Projects Section */
 .projects {
@@ -318,7 +333,7 @@ body {
   text-align: center;
 }
 
-.projects h2{
+.projects h2 {
   font-size: 2em;
 }
 
@@ -346,13 +361,13 @@ body {
   background: transparent;
   padding: 30px 25px;
   border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 45px rgba(0,0,0,0.6);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
 }
 
 .project-card i {
@@ -376,7 +391,7 @@ body {
 .project-card a {
   display: inline-block;
   padding: 10px 20px;
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border-radius: 30px;
   font-size: 0.85rem;
@@ -390,9 +405,8 @@ body {
   opacity: 0.9;
 }
 
-
 /* Skills Section */
-.skills h2{
+.skills h2 {
   font-size: 2em;
 }
 .skills {
@@ -418,7 +432,7 @@ body {
   background: transparent;
   padding: 25px;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
 }
 
@@ -469,20 +483,18 @@ body {
   }
 }
 
-
 /* Contact Section */
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  
+
   padding: 60px 0;
   width: 100%;
   overflow-x: hidden;
-  
 }
-.contact > h2{
+.contact > h2 {
   font-size: 2em;
   padding: 25px;
 }
@@ -496,7 +508,7 @@ body {
   border-radius: 20px;
   padding: 28px;
   color: #fff;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
   display: flex;
 }
 
@@ -512,7 +524,7 @@ body {
   opacity: 0.85;
   margin-bottom: 20px;
 }
-.contact-card img{
+.contact-card img {
   width: 200px;
   height: 165px;
   border-radius: 10px;
@@ -522,7 +534,7 @@ body {
 .contact-card input,
 .contact-card textarea {
   width: 100%;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
   border: none;
   outline: none;
   border-radius: 12px;
@@ -535,7 +547,7 @@ body {
 
 .contact-card input::placeholder,
 .contact-card textarea::placeholder {
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Button */
@@ -554,16 +566,16 @@ body {
 
 .contact-card button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(79,124,255,0.5);
+  box-shadow: 0 6px 18px rgba(79, 124, 255, 0.5);
 }
-.contact > p{
+.contact > p {
   height: 100px;
   display: flex;
   align-items: center;
   margin: 15px;
 }
 .contact a {
-  color: #FFFDFD;
+  color: #fffdfd;
   margin: 0 15px;
   font-size: 1.5em;
   transition: 0.3s;
@@ -575,13 +587,12 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  
 }
 
 .contact a:hover {
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  box-shadow: 2px 2px 15px #04FBFF, -2px -2px 15px #FF00EF;
+  box-shadow: 2px 2px 15px #04fbff, -2px -2px 15px #ff00ef;
 }
 
 /* Footer */
@@ -611,7 +622,7 @@ body {
 
   * {
     -webkit-tap-highlight-color: transparent;
-}
+  }
 
   .header {
     padding: 0 10px;
@@ -637,35 +648,36 @@ body {
   }
 
   .hero img {
-    max-width: 90%;
+    width: 300px;
+    max-width: 551px;
     margin-bottom: 10px;
   }
 
   .btns {
     justify-content: center;
   }
-  
+
   /* About section*/
-  .about .ss{
+  .about .ss {
     display: flex;
     flex-direction: column;
   }
-  .about img{
+  .about img {
     width: 85%;
     border-radius: 47%;
   }
-  .about p{
+  .about p {
     font-size: 15px;
     padding: 15px 2%;
   }
   /* Skills section*/
-  .skills section{
+  .skills section {
     min-height: 50vh;
   }
 
   /*contact section*/
-  .contact h2{
-      font-size: 2em;
+  .contact h2 {
+    font-size: 2em;
   }
   .contact-card {
     max-width: 520px;
@@ -673,7 +685,7 @@ body {
     flex-direction: column;
   }
 
-  .contact-card  span h2 {
+  .contact-card span h2 {
     font-size: 1.3rem;
     margin: 7px 0px;
   }
@@ -681,21 +693,23 @@ body {
   .contact-card p {
     font-size: 1rem;
   }
-  .contact p{
+  .contact-card img {
+    display: none;
+  }
+  .contact p {
     height: 75px;
   }
-  .con_sub button{
+  .con_sub button {
     font-size: 1em;
     width: 55%;
     padding: 10px 10%;
   }
-  .con_sub button:hover{
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  box-shadow: 2px 2px 15px #04FBFF, -2px -2px 15px #FF00EF;
-}
-.contact a{
-  font-size: 1em;
-}
-
+  .con_sub button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    box-shadow: 2px 2px 15px #04fbff, -2px -2px 15px #ff00ef;
+  }
+  .contact a {
+    font-size: 1em;
+  }
 }
