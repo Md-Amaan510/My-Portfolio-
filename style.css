@@ -190,7 +190,6 @@ body {
   align-items: center;
   padding: 120px 40px 60px;
   gap: 30px;
-  flex-wrap: wrap;
   scroll-margin-top: 80px;
 }
 
@@ -280,7 +279,7 @@ body {
 .about {
   text-align: center;
   padding: 50px 7%;
-  margin: 0 10px;
+  margin: auto 10px;
 }
 .about .ss {
   display: flex;
@@ -289,10 +288,10 @@ body {
 }
 .about h2 {
   font-size: 2em;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 .about img {
-width: 345px;
+width: 305px;
   margin: 25px 0;
   border-radius: 47%;
 }
@@ -523,6 +522,7 @@ width: 345px;
 .contact-card img {
   width: 200px;
   height: 165px;
+  margin-right: 15px;
   border-radius: 10px;
 }
 
