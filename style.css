@@ -268,19 +268,14 @@ body {
 
 /* Hero Image */
 .hero img {
-  width: 330px;
-  aspect-ratio: 1 / 1;
+  width: 225px;
   object-fit: cover;
   border-radius: 60px;
   border: 1px solid #ffffff80;
   padding: 10px;
   box-shadow: 0 0 10px rgba(209, 209, 209, 1);
-  transition: transform 0.3s ease;
 }
 
-.hero img:hover {
-  transform: scale(1.05);
-}
 
 /* About Section */
 .about {
@@ -298,12 +293,12 @@ body {
   margin-bottom: 15px;
 }
 .about img {
-  min-width: 250px;
-  max-width: 355px;
+width: 250px;
   margin: 25px 0;
   border-radius: 47%;
 }
 .about p {
+  width: 250px;
   font-size: 25px;
   padding: 15px 10%;
 }
@@ -476,7 +471,7 @@ body {
   padding-right: 8px;
   font-size: 0.7rem;
   line-height: 12px;
-  animation: animation: fillBar 1.5s ease forwards;
+  animation: fillBar 1.5s ease forwards;
 }
 
 @keyframes fillBar {
@@ -606,15 +601,6 @@ body {
   color: #aaa;
 }
 
-.w,
-.hero img,
-.btn1,
-.option a,
-.sidebar,
-.skills section {
-  will-change: transform;
-  transform: translateZ(0);
-}
 section {
   scroll-margin-top: 90px;
 }
@@ -648,7 +634,7 @@ section {
     padding-top: 100px;
   }
   .hero img {
-    width: 220px;
+    width: 305px;
     margin-bottom: 15px;
   }
 
@@ -662,11 +648,11 @@ section {
     flex-direction: column;
   }
   .about img {
-    width: 85%;
+    width: 280px;
     border-radius: 47%;
   }
   .about p {
-    font-size: 15px;
+    font-size: 20px;
     padding: 15px 2%;
   }
   /* Skills section*/
