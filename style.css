@@ -636,6 +636,11 @@ section {
     width: 305px;
     margin-bottom: 15px;
   }
+  .det {
+    max-width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
 
   .btns {
     justify-content: center;
