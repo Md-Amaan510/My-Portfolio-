@@ -34,7 +34,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  overflow-x: hidden;
 }
 
 /* Header */
@@ -293,12 +292,12 @@ body {
   margin-bottom: 15px;
 }
 .about img {
-width: 250px;
+width: 345px;
   margin: 25px 0;
   border-radius: 47%;
 }
 .about p {
-  width: 250px;
+  width: 100%;
   font-size: 25px;
   padding: 15px 10%;
 }
